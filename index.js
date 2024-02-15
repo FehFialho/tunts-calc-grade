@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", async (req, res) => {
 
-    res.send("<h1>Welcome to the server!</h1><p>Access <a href='https://docs.google.com/spreadsheets/d/1Wl7zBaFEboIx7EMJin1gYtIcNdBCo7Kb1y9dlW9vtgM/edit?usp=sharing'>this link</a> to see the spreadsheet.</p><br><p>Try entering new values in the cells and refresh this page to see the results.</p>");
+    res.send("<h1>Welcome to the server!</h1><p>Access <a href='https://docs.google.com/spreadsheets/d/1Wl7zBaFEboIx7EMJin1gYtIcNdBCo7Kb1y9dlW9vtgM/edit?usp=sharing'>this link</a> to see the spreadsheet.</p><br><p>Keep this page open. Try entering new values in the cells and refresh this page to see the results.</p>");
 
     try {
         // Creates an authentication object to use the Google Sheets API.
